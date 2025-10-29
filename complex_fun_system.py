@@ -69,7 +69,7 @@ class SimpleHandler(http.server.SimpleHTTPRequestHandler):
 
 # ---------- Main ----------
 if __name__ == "__main__":
-    PORT = 8000
+    PORT = 8080
     worker = Worker()
     worker.start()
 
